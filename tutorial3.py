@@ -29,7 +29,7 @@ class Net(nn.Module):
         numfeat = 1
         size = x.size()[1:]
         for s in size:
-            numfeat *= s
+            numfeat *= spo
 
         return numfeat
 
